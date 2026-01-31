@@ -107,7 +107,7 @@ class _AchievementsPageState extends State<AchievementsPage> {
       decoration: BoxDecoration(border: Border(bottom: BorderSide(color: tan.withOpacity(0.3)), left: BorderSide(color: tan.withOpacity(0.3)))),
       child: InkWell(
         onTap: () => _openCertificate(name, path),
-        child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [Icon(Icons.image, color: pink, size: 24), SizedBox(width: 8), Text("Open", style: TextStyle(color: Colors.blue, fontWeight: FontWeight.bold, decoration: TextDecoration.underline, fontSize: 16))]),
+        child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [Icon(Icons.image, color: pink, size: 24), SizedBox(width: 8), Text("Open", style: TextStyle(color: const Color.fromARGB(255, 196, 50, 106), fontWeight: FontWeight.bold, decoration: TextDecoration.underline, fontSize: 16))]),
       ),
     );
   }

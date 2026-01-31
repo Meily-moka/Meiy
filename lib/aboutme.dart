@@ -70,7 +70,7 @@ class _AboutmePageState extends State<aboutmePage> {
         actions: [
           IconButton(
             icon: Icon(Icons.code, color: Colors.black87), // Placeholder for GitHub icon
-            onPressed: () => _launchURL("https://github.com/engsopheak"),
+            onPressed: () => _launchURL("https://github.com/Meily-moka"),
             tooltip: "GitHub",
           ),
           SizedBox(width: 20),
